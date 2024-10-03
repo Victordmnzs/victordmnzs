@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">🎯 Goals: Network Engineer and Cybersec Expert<br>🏀 Fun fact: I am a basketball player</p>
+<p align="left">🎯 Goals: Network Engineer and Cybersec Expert<br>🤔 Fun fact: If I could I would never code 😂<br>🏀 Extra fact: I am a basketball player</p>
 
 ###
 
