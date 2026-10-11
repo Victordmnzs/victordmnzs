@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" role="img" aria-label="victor@netsec terminal: Victor de Menezes, Network &amp; Security">
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9c" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00ff9c" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .p  { fill: #00ff9c; font-size: 17px; }
+      .c  { fill: #e6edf3; font-size: 17px; }
+      .o  { fill: #8b949e; font-size: 16px; }
+      .hl { fill: #00e5ff; }
+      .ok { fill: #00ff9c; }
+      .mg { fill: #ff2e88; }
+      .name { fill: #00ff9c; font-size: 34px; font-weight: 700; letter-spacing: 1px; }
+      .tag  { fill: #00e5ff; font-size: 15px; letter-spacing: 3px; }
+      .l { animation: in 0.35s steps(1) backwards; }
+      .l1 { animation-delay: 0.2s } .l2 { animation-delay: 0.7s } .l3 { animation-delay: 1.2s }
+      .l4 { animation-delay: 1.7s } .l5 { animation-delay: 2.2s } .l6 { animation-delay: 2.7s }
+      .l7 { animation-delay: 3.2s } .l8 { animation-delay: 3.7s }
+      @keyframes in { from { opacity: 0 } to { opacity: 1 } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .scan { animation: sweep 6s linear infinite; }
+      @keyframes sweep { from { transform: translateY(-120px) } to { transform: translateY(340px) } }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="958" height="328" rx="12" fill="#0a0e14" stroke="#00ff9c" stroke-opacity="0.35"/>
+  <rect x="1" y="1" width="958" height="328" rx="12" fill="url(#grid)"/>
+  <rect class="scan" x="1" y="0" width="958" height="110" fill="url(#scan)"/>
+  <path d="M1 13a12 12 0 0 1 12-12h934a12 12 0 0 1 12 12v23H1z" fill="#111821"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="6" fill="#27c93f"/>
+  <text x="480" y="24" text-anchor="middle" class="o" style="font-size:13px">victor@netsec: ~</text>
+
+  <!-- right block: identity -->
+  <g filter="url(#glow)">
+    <text x="930" y="92" text-anchor="end" class="name">VICTOR DE MENEZES</text>
+  </g>
+  <text x="930" y="120" text-anchor="end" class="tag">NETWORK // SECURITY</text>
+  <text x="930" y="300" text-anchor="end" class="o" style="font-size:13px">Santa Maria · RS · BR</text>
+
+  <!-- terminal lines -->
+  <g>
+    <text x="28" y="72" class="l l1"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text>
+    <text x="28" y="98" class="l l2 o">network &amp; security @ <tspan class="hl">UFSM</tspan> + <tspan class="hl">Forte Security</tspan></text>
+
+    <text x="28" y="136" class="l l3"><tspan class="p">$ </tspan><tspan class="c">cat focus.txt</tspan></text>
+    <text x="28" y="162" class="l l4 o">NGFW · routing &amp; switching · detection engineering · IAM</text>
+
+    <text x="28" y="200" class="l l5"><tspan class="p">$ </tspan><tspan class="c">./status --verbose</tspan></text>
+    <text x="28" y="226" class="l l6 o"><tspan class="ok">[✓]</tspan> Sophos Firewall Engineer v22.0</text>
+    <text x="28" y="250" class="l l7 o"><tspan class="ok">[✓]</tspan> wazuh-hids-lab · ldap-centralized-auth · dynamic-routing</text>
+
+    <text x="28" y="288" class="l l8"><tspan class="p">$ </tspan><tspan class="mg cursor">█</tspan></text>
+  </g>
+</svg>
