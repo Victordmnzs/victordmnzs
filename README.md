@@ -29,7 +29,10 @@ victor@netsec:~$ cat goals.txt
 
 ```diff
 + Sophos Firewall Engineer v22.0
++ Cloud Tech Professional – Advanced EDR
 + Cloud Tech Professional – Advanced Backup
++ Sophos Firewall Architect v22.0
++ MikroTik Certified Network Associate (MTCNA)
 ```
 
 ## `~/stack`
