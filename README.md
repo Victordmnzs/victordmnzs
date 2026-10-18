@@ -10,7 +10,7 @@
 
 ```console
 victor@netsec:~$ whoami
-Network & security student at UFSM, working with network & security at Forte Security.
+Network Engineering student at UFSM, working with network & cybersecurity at Forte Security.
 I build labs, break them on purpose, and document what I learn.
 
 victor@netsec:~$ cat goals.txt
